@@ -1,0 +1,46 @@
+.content{
+  width: 500px;
+  min-height: 560px;    
+  margin: 0px auto;
+  position: relative;   
+}
+
+.content p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: #405c60;
+  position: relative;
+}
+
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+
+.new-account{
+  position: absolute;
+  top: 0px;
+  width: 88%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  border-radius: 5px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+} 
