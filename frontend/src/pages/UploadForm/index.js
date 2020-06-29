@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import api from '../../services/api'
+import './styles.css'
 
 export default function UploadForm() {
   const [file, setFile] = useState('')
@@ -30,7 +31,7 @@ export default function UploadForm() {
 
   return (
     <div className="content">
-      <form method="post" encType="multipart/form-data" onSubmit={handleUpload}>
+      <form className="uploadForm" method="post" encType="multipart/form-data" onSubmit={handleUpload}>
         <input type="file" name="file" onChange={onChange} />
         <button className="button" type="submit">Enviar</button>
       </form>

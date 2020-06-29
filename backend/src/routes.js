@@ -5,6 +5,7 @@ const upload = multer({ dest: 'src/files/' })
 
 //Controllers
 const paymentController = require('./controllers/paymentController')
+const readController = require('./controllers/readController')
 
 const routes = express.Router()
 
