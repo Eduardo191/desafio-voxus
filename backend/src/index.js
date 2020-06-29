@@ -1,9 +1,6 @@
 const express = require('express')
 const routes = require('./routes')
 const cors = require('cors')
-let multer = require('multer');
-
-let upload = multer({ dest:'./src/files' });
 
 const app = express()
 

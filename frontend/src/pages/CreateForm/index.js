@@ -53,6 +53,7 @@ export default function PaymentForm() {
           onChange={e => setComments(e.target.value)}
         />
 
+        <button className="button" type="button" onClick={() => history.push('/upload')}>Upload de arquivo</button>
         <button className="button" type="submit">Enviar</button>
       </form>
     </div>
